@@ -1,23 +1,23 @@
 {"navbar":{
-    "home": "home",
-    "about":"about",
-    "contact":"contact"
+    "home" : "home",
+    "about" : "hogar",
+    "contact" : "acerca de"
 },
 "homepage":{
-    "welcome-message":"Welcome to The JavaScript Way",
-    "topic":"Topic getting covered",
-    "client-side-component":"Only 328 subs",
-    "tab-title-home":"homepage"
+    "welcome-message": "Bienvenido al estilo JavaScript",
+    "topic":"El tema se revela",
+    "client-side-component":"328 suscripciones solamente",
+    "tab-title-home": "página de inicio"
 },
 "about":{
-"title":"This is my ABOUT page",
-"tab-title-about":"about"
+"title":"Esta es mi página ACERCA DE",
+"tab-title-about":"acerca de"
 },
 "contact":
 {
-    "title":"This is my CONTACT page",
-    "tab-title-about":"about"
+    "title":"Esta es mi página de CONTACTO",
+    "tab-title-about":"acerca de"
 },
 "footer":{
-    "description":"This is my footer"
+    "description":"Este es mi pie de página"
 }}

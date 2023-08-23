@@ -1,23 +1,24 @@
-{"navbar":{
-    "home": "home",
-    "about":"about",
-    "contact":"contact"
-},
-"homepage":{
-    "welcome-message":"Welcome to The JavaScript Way",
-    "topic":"Topic getting covered",
-    "client-side-component":"Only 328 subs",
-    "tab-title-home":"homepage"
-},
-"about":{
-"title":"This is my ABOUT page",
-"tab-title-about":"about"
-},
-"contact":
 {
-    "title":"This is my CONTACT page",
-    "tab-title-about":"about"
-},
-"footer":{
-    "description":"This is my footer"
-}}
+  "navbar": {
+    "home": "dom",
+    "about": "około",
+    "contact": "kontakt"
+  },
+  "homepage": {
+    "welcome-message": "Witamy w stylu JavaScript",
+    "topic": "Temat do omówienia",
+    "client-side-component": "Tylko 328 subskrybentów",
+    "tab-title-home": "strona główna"
+  },
+  "about": {
+    "title": "To jest moja strona O mnie",
+    "tab-title-about": "about"
+  },
+  "contact": {
+    "title": "To jest moja strona KONTAKT",
+    "tab-title-about": "about"
+  },
+  "footer": {
+    "description": "To jest moja stopka"
+  }
+}
