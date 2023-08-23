@@ -1,8 +1,8 @@
-/** @type {import('next').nextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {}
 
 const withNextIntl = require('next-intl/plugin')(
-    './i18n.tsx'
+    './i18n.jsx'
 )
 
 module.exports = withNextIntl(nextConfig)
