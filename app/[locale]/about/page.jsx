@@ -2,13 +2,12 @@ import {useTranslations} from 'next-intl';
 import {getTranslations} from 'next-intl/server'
 
 export async function generateMetadata(){
-    const t = await useTranslations('about')
+    const t = await getTranslations('about')
 
     return {
         title:t('tab-title-about')
     };
 }
-
 
 export default function About(){
     const t = useTranslations('about')

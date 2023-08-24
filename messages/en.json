@@ -16,7 +16,7 @@
 "contact":
 {
     "title":"This is my CONTACT page",
-    "tab-title-about":"about"
+    "tab-title-contact":"Contact"
 },
 "footer":{
     "description":"This is my footer"
