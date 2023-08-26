@@ -2,9 +2,7 @@
 const nextConfig = {
   output: 'export',
   distDir: 'dist',
-  experimental: {
-    appDir: true,
-  },
+
 }
 
 
