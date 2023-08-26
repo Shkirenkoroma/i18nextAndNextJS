@@ -1,15 +1,12 @@
-import nextIntl from "next-intl/plugin";
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  experimental: {
-    appDir: true,
-  },
-  images: {
-    domains: ["tailwindui.com"],
-  },
-};
+  trailingSlash: true,
+  output: 'export',
+}
 
-const withNextIntl = nextIntl("./i18n.jsx");
 
-export default withNextIntl(nextConfig);
+const withNextIntl = require('next-intl/plugin')(
+    './i18n.jsx'
+)
+
+module.exports = withNextIntl(nextConfig)
